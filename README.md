@@ -1,2 +1,2 @@
 # DiscoveryMapHelper
-Euro Truck Simulator 2 [Game modification]
+[Game mod] Euro Truck Simulator 2
