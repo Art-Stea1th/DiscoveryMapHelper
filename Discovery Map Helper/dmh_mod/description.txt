@@ -1,4 +1,4 @@
-Helper for getting [orange]Pathfinder Achievement[normal].
+Helps get the [orange]Pathfinder[normal] achievement.
 
 This mod repaint colors the road map, and also removes all the icons, road numbers and company logos.
 
