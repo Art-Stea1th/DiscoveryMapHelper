@@ -1,0 +1,16 @@
+SiiNunit {
+
+	mod_package : .package_name {
+			
+			display_name:    "Discovery Map Helper"
+			author:          "Art.Stea1th"
+			package_version: "1.4 Release 1"
+			
+			category[]: "other"
+			category[]: "ui"
+			
+			icon:             "icon.jpg"
+			description_file: "description.txt"
+			
+	}	
+}
