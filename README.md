@@ -14,7 +14,7 @@ Game Mod for the **Euro Truck Simulator 2.** Helps get the **Pathfinder** achiev
 
 > Notes:
 * Company logos will be disabled in the job list, too. Because the game uses the same sprites as to draw on the map.
-* If the modification is not applied (colors of road map unchanged) or applied partially - You can try to change the order by moving the modification below.
+* If the modification is not applied (colors of road map unchanged) or applied partially - You can try to increase the priority of the modification.
 
 > Previews:
 
