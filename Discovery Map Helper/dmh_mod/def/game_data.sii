@@ -6,100 +6,6 @@ SiiNunit {
 		
 		version: 1
 
-		road_color:				0xFF0C0CCF	// Advisor undiscovered route
-		discovered_color:		0xFF406680	// Advisor discovered route
-		outline_color:			0xFF000000	// Advisor route outline
-		navigation_color:		0x80FFFFFF	// Navigation path color
-		navigation_arrow_color:	0xFF0CCF0C	// Navigation crossroad arrows color
-		job_road_color:			0xFF0C0CCF	// JobMarket map route
-		job_discovered_color:	0xFF406680	// JobMarket map discovered route
-		world_road_color:		0xFF0C0CCF	// Main Map undiscovered route
-		world_discovered_color:	0xFF406680	// Main Map discovered route
-
-		zoom_uplift[0]: 50.0	// close zoom for 3d map
-		zoom_uplift[1]: 220.0	// far zoom for 3d map
-		zoom_uplift[2]: 900.0	// close zoom for minimap
-		zoom_uplift[3]: 4000.0	// far zoom for minimap
-		zoom_uplift[4]: 1000.0	// city detail zoom for world map
-		zoom_uplift[5]: 5000.0	// closest zoom for world map
-		zoom_uplift[6]: 18500.0	// middle zoom for world map
-		zoom_uplift[7]: 45000.0	// whole world map zoom
-
-		player_size[0]: 15.0
-		player_size[1]: 35.0
-		player_size[2]: 120.0
-		player_size[3]: 500.0
-		player_size[4]: 90.0
-		player_size[5]: 350.0
-		player_size[6]: 900.0
-		player_size[7]: 2200.0
-
-		road_size_factor[0]: 1.0
-		road_size_factor[1]: 1.0
-		road_size_factor[2]: 1.5
-		road_size_factor[3]: 3.0
-		road_size_factor[4]: 1.0
-		road_size_factor[5]: 1.5
-		road_size_factor[6]: 4.5
-		road_size_factor[7]: 8.0
-	
-		full_detail[0]: true
-		full_detail[1]: true
-		full_detail[2]: true
-		full_detail[3]: true
-		full_detail[4]: true
-		full_detail[5]: true
-		full_detail[6]: false
-		full_detail[7]: false
-
-		icon_size[0]: (13.0, 13.0)
-		icon_size[1]: (10.0, 10.0)
-		icon_size[2]: (7.0, 7.0)
-		icon_size[3]: (7.0, 7.0)
-		icon_size[4]: (17.0, 17.0)
-		icon_size[5]: (13.0, 13.0)
-		icon_size[6]: (11.0, 11.0)
-		icon_size[7]: (13.0, 13.0)
-
-		company_icon_size[0]: (32.0, 8.0)
-		company_icon_size[1]: (20.0, 5.0)
-		company_icon_size[2]: (0.0, 0.0)
-		company_icon_size[3]: (0.0, 0.0)
-		company_icon_size[4]: (60.0, 15.0)
-		company_icon_size[5]: (40.0, 10.0)
-		company_icon_size[6]: (16.0, 4.0)
-		company_icon_size[7]: (16.0, 4.0)
-
-		camera_limits_min[0]: (-1000000.0, -1000000.0)
-		camera_limits_min[1]: (-1000000.0, -1000000.0)
-		camera_limits_min[2]: (-1000000.0, -1000000.0)
-		camera_limits_min[3]: (-1000000.0, -1000000.0)
-		camera_limits_min[4]: (-60000.0, -58000.0)
-		camera_limits_min[5]: (-52000.0, -57000.0)
-		camera_limits_min[6]: (-46000.0, -51000.0)
-		camera_limits_min[7]: (-36000.0, -37000.0)
-	
-		camera_limits_max[0]: (1000000.0, 1000000.0)
-		camera_limits_max[1]: (1000000.0, 1000000.0)
-		camera_limits_max[2]: (1000000.0, 1000000.0)
-		camera_limits_max[3]: (1000000.0, 1000000.0)
-		camera_limits_max[4]: (45000.0, 42000.0)
-		camera_limits_max[5]: (43000.0, 32000.0)
-		camera_limits_max[6]: (34000.0, 33000.0)
-		camera_limits_max[7]: (15000.0, 26000.0)
-
-		map_items_flags[0]: 0x1FFF
-		map_items_flags[1]: 0x1FFF
-		map_items_flags[2]: 0x1F7F	// no parkings
-		map_items_flags[3]: 0x1F7F	// no parkings
-		map_items_flags[4]: 0x1FAF	// target, cities, roads, gas stations, dealers, recruitments, garages, companies, parkings, services
-		map_items_flags[5]: 0x1F27	// target, cities, roads, gas stations, dealers, recruitments, garages, companies
-		map_items_flags[6]: 0x1407	// target, cities, roads, gas stations
-		map_items_flags[7]: 0x1402	// target, cities
-
-
-		map_3d_camera_pitch: 40.0	// camera pitch in 3d map
-
 		refund_coef: 0.6
 
 		interior_sound_volume:	0.05	// Interior sound attenuation value (the outside sounds will have 5% of original volume)
@@ -139,14 +45,9 @@ SiiNunit {
 		world_to_ui_off:	(16820.431472081218274111675126904, 25202.148809523809523809523809524) // float2(3313625.0f / 197.0f, 4233961.0f / 168.0f);
 		world_to_ui_coef:	(0.012278733482921964597357267514336, 0.012460134984795668619743380553289) // float2(197.0f / 16044.0f, 168.0f / 13483.0f);
 
-		ui_map_center:	(-29000.0, 4500.0)		// in game units
 		ui_unit_to_km:	1.0						// number of real km per game unit
-		ui_map_size:	(217800.0, 210000.0)	// map texture in real km
 
-		ui_map_camera_min: (-22000.0, -43500.0)	// (- , more scrolling space at upper part of the map)
-		ui_map_camera_max: (16000.0, 20500.0)	// (- , more scrolling space at lower part of the map)
 
-	
 		discount_truck_offers: 14
 		discount_truck_offers[0]: .employee.data.truck.discount.01
 		discount_truck_offers[1]: .employee.data.truck.discount.02
