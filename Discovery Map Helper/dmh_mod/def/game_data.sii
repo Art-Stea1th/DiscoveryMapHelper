@@ -109,10 +109,6 @@ SiiNunit {
 		default_truck_front_rims:	"/def/vehicle/f_rim/steel.sii"
 		default_truck_rear_rims:	"/def/vehicle/r_rim/steel.sii"
 
-		# navigation params
-		navigation_city_penalty: 3.0
-		navigation_slow_road_penalty: 5.0
-
 		cargo_groups[]: machinery
 		cargo_groups[]: adr
 		cargo_groups[]: containers
