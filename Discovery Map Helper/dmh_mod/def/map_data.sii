@@ -1,0 +1,129 @@
+SiiNunit {
+
+	map_data : .map.data {
+
+		road_color:							0xFF0C0CCF 	// Advisor map undiscovered route
+		road_discovered_color:				0xFF505050	// Advisor map discovered route
+		job_road_color:						0xFF07077C	// Job market map undiscoveder route
+		job_road_discovered_color:			0xFF353535	// Job market map discovered route
+		world_road_color:					0xFF0C0CCF	// Main map undiscovered route
+		world_road_discovered_color:		0xFF505050 	// Main map discovered route
+
+		prefab_color:						0xFF0C42DF	// Undiscovered prefab driveable areas
+		prefab_obstacle_color:				0xFF07077C	// Undiscovered prefab buildings
+		prefab_grass_color:					0xFF0C42DF	// Undiscovered prefab grass areas
+		prefab_discovered_color:			0xFF5F5F5F	// Discovered prefab driveable areas
+		prefab_obstacle_discovered_color:	0xFF333333	// Discovered prefab buildings
+		prefab_grass_discovered_color:		0xFF5F5F5F	// Discovered prefab grass
+
+		outline_color:						0xFF000000	// Route outline
+		
+		//navigation_color:					0x804CC6FF	// Navigation path color
+		navigation_color:					0x80FFFFFF	// Navigation path color
+		
+		//navigation_highlight_color:			0xB098CAEB	// Navigation path color, highligted segment
+		navigation_highlight_color:			0xB0FFFFFF	// Navigation path color, highligted segment
+		
+		//navigation_fade_color:				0x503BA2E0	// Navigation path color, faded segment
+		navigation_fade_color:				0x50FFFFFF	// Navigation path color, faded segment
+		
+		//navigation_arrow_color:				0xFF06FB11	// Navigation crossroad arrows color
+		navigation_arrow_color:				0xFFFFFFFF	// Navigation crossroad arrows color
+
+
+		zoom_uplift[0]: 50.0		// close zoom for 3d map
+		zoom_uplift[1]: 220.0		// far zoom for 3d map
+		zoom_uplift[2]: 900.0		// close zoom for minimap
+		zoom_uplift[3]: 4000.0		// far zoom for minimap
+		zoom_uplift[4]: 1000.0		// city detail zoom for world map
+		zoom_uplift[5]: 5000.0		// closest zoom for world map
+		zoom_uplift[6]: 18500.0		// middle zoom for world map
+		zoom_uplift[7]: 45000.0    	// whole world map zoom
+
+		player_size[0]: 15.0
+		player_size[1]: 35.0
+		player_size[2]: 120.0
+		player_size[3]: 500.0
+		player_size[4]: 90.0
+		player_size[5]: 350.0
+		player_size[6]: 900.0
+		player_size[7]: 2200.0
+
+		road_size_factor[0]: 1.0
+		road_size_factor[1]: 1.0
+		road_size_factor[2]: 1.5
+		road_size_factor[3]: 3.0
+		road_size_factor[4]: 1.0
+		road_size_factor[5]: 1.5
+		road_size_factor[6]: 4.5
+		road_size_factor[7]: 8.0
+	
+		full_detail[0]: true
+		full_detail[1]: true
+		full_detail[2]: true
+		full_detail[3]: true
+		full_detail[4]: true
+		full_detail[5]: true
+		full_detail[6]: true
+		full_detail[7]: true
+		
+		icon_size[0]: (13.0, 13.0)
+		icon_size[1]: (10.0, 10.0)
+		icon_size[2]: (7.0, 7.0)
+		icon_size[3]: (7.0, 7.0)
+		icon_size[4]: (17.0, 17.0)
+		icon_size[5]: (13.0, 13.0)
+		icon_size[6]: (11.0, 11.0)
+		icon_size[7]: (13.0, 13.0)
+		
+		company_icon_size[0]: (32.0, 8.0)
+		company_icon_size[1]: (20.0, 5.0)
+		company_icon_size[2]: (0.0, 0.0)
+		company_icon_size[3]: (0.0, 0.0)
+		company_icon_size[4]: (60.0, 15.0)
+		company_icon_size[5]: (40.0, 10.0)
+		company_icon_size[6]: (16.0, 4.0)
+		company_icon_size[7]: (16.0, 4.0)
+
+		camera_limits_min[0]: (-1000000.0, -1000000.0)
+		camera_limits_min[1]: (-1000000.0, -1000000.0)
+		camera_limits_min[2]: (-1000000.0, -1000000.0)
+		camera_limits_min[3]: (-1000000.0, -1000000.0)
+		camera_limits_min[4]: (-57000.0, -58000.0)
+		camera_limits_min[5]: (-55000.0, -57000.0)
+		camera_limits_min[6]: (-46000.0, -51000.0)
+		camera_limits_min[7]: (-30000.0, -37000.0)
+	
+		camera_limits_max[0]: (1000000.0, 1000000.0)
+		camera_limits_max[1]: (1000000.0, 1000000.0)
+		camera_limits_max[2]: (1000000.0, 1000000.0)
+		camera_limits_max[3]: (1000000.0, 1000000.0)
+		camera_limits_max[4]: (45000.0, 40000.0)
+		camera_limits_max[5]: (43000.0, 39000.0)
+		camera_limits_max[6]: (34000.0, 33000.0)
+		camera_limits_max[7]: (15000.0, 23000.0)
+		
+		map_items_flags[0]: 0x1C00
+		map_items_flags[1]: 0x1C00
+		map_items_flags[2]: 0x1402
+		map_items_flags[3]: 0x1F7F
+		map_items_flags[4]: 0x1C02
+		map_items_flags[5]: 0x1C00
+		map_items_flags[6]: 0x1C00
+		map_items_flags[7]: 0x1402
+
+		map_3d_camera_pitch: 40.0      // camera pitch in 3d map
+
+		ui_map_center:	(-29000.0, 4500.0)	// in editor coordinates
+		ui_map_size:	(4138.2, 3990.0)	// map texture in real km
+
+		ui_map_camera_min: (-30000.0, -43500.0)
+		ui_map_camera_max: (15000.0, 23000.0)
+	
+		# navigation params
+		navigation_city_penalty: 30.0       // navigation_city_penalty: 3.0
+		navigation_slow_road_penalty: 50.0  // navigation_slow_road_penalty: 5.0
+
+	}
+
+}
