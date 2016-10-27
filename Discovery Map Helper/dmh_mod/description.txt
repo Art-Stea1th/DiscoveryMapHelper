@@ -4,6 +4,4 @@ This mod repaint colors the road map, and also removes all the icons, road numbe
 
 [orange]Notes:[normal]
 
-Company logos will be disabled in the job list, too. Because the game uses the same sprites as to draw on the map.
-
 If the modification is not applied (colors of road map unchanged) or applied partially - You can try to increase the priority of the modification.

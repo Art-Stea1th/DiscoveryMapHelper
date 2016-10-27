@@ -16,18 +16,10 @@ SiiNunit {
 		prefab_obstacle_discovered_color:	0xFF333333	// Discovered prefab buildings
 		prefab_grass_discovered_color:		0xFF5F5F5F	// Discovered prefab grass
 
-		outline_color:						0xFF000000	// Route outline
-		
-		//navigation_color:					0x804CC6FF	// Navigation path color
-		navigation_color:					0x80FFFFFF	// Navigation path color
-		
-		//navigation_highlight_color:			0xB098CAEB	// Navigation path color, highligted segment
-		navigation_highlight_color:			0xB0FFFFFF	// Navigation path color, highligted segment
-		
-		//navigation_fade_color:				0x503BA2E0	// Navigation path color, faded segment
-		navigation_fade_color:				0x50FFFFFF	// Navigation path color, faded segment
-		
-		//navigation_arrow_color:				0xFF06FB11	// Navigation crossroad arrows color
+		outline_color:						0xFF000000	// Route outline		
+		navigation_color:					0x80FFFFFF	// Navigation path color		
+		navigation_highlight_color:			0xB0FFFFFF	// Navigation path color, highligted segment		
+		navigation_fade_color:				0x50FFFFFF	// Navigation path color, faded segment		
 		navigation_arrow_color:				0xFFFFFFFF	// Navigation crossroad arrows color
 
 
@@ -121,8 +113,8 @@ SiiNunit {
 		ui_map_camera_max: (15000.0, 23000.0)
 	
 		# navigation params
-		navigation_city_penalty: 30.0       // navigation_city_penalty: 3.0
-		navigation_slow_road_penalty: 50.0  // navigation_slow_road_penalty: 5.0
+		navigation_city_penalty: 3.0
+		navigation_slow_road_penalty: 5.0
 
 	}
 

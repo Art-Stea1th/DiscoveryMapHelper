@@ -1,0 +1,21 @@
+map bits
+
+0	- road numbers, terminals, quarries, ports, tunnels
+1	- cities [names & points]
+2	- gas stations
+3	- services
+
+4	- ?
+5	- dealers
+6	- ?
+7	- ?
+
+8	- garages
+9	- companies
+10	- markers
+11	- recruitment agency
+
+12	- path\target
+13	- ?
+14	- ?
+15	- ?
