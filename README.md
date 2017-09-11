@@ -3,7 +3,7 @@
 Game Mod for the **Euro Truck Simulator 2.** Helps get the **Pathfinder** achievement.
 *Repaint colors on the road map, and also removes all the icons, road numbers and company logos.*
 
-> Ready for the "DLC France", "Scandinavia DLC" and the "Going East! DLC".[/h1]
+> Ready for the "DLC France", "Scandinavia DLC" and the "Going East! DLC".
 * This mod does not affect the map, it only changes the map view.
 * It should work fine with 99% of existing Euro Truck Simulator 2 modifications.
 * It should work fine even with those mods that expand the map, add new cities and roads.
