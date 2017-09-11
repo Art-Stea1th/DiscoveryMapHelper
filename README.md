@@ -25,4 +25,5 @@ Game Mod for the **Euro Truck Simulator 2.** Helps get the **Pathfinder** achiev
 * If the modification is not applied (colors of road map unchanged) or applied partially - You can try to increase the priority of the modification.
 
 > Preview:
+
 ![Preview](https://github.com/Art-Stea1th/DiscoveryMapHelper/blob/master/Arts/previews/dmh-prev-L.jpg)
