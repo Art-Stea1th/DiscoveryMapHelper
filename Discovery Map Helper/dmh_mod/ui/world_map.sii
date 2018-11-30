@@ -1,190 +1,181 @@
 SiiNunit {
 
     ui_blend_window : _nameless.008a5be61 {
-
-        blend_x_shift:     0
-        blend_y_shift:     0
-        clip_children:     true
-        window_handler:    _nameless.008a5be60
-        keep_aspect:       center
-        user_string_data:  ""
-        fitting:           false
-        my_children:       18
-        my_children[0]:    _nameless.008a5be62
-        my_children[1]:    _nameless.008a5be63
-        my_children[2]:    _nameless.008a5be64
-        my_children[3]:    _nameless._.close.button
-        my_children[4]:    _nameless._.info
-        my_children[5]:    _nameless._.info.1
-        my_children[6]:    _nameless.008a5bf00
-        my_children[7]:    _nameless.009510e70
-        my_children[8]:    _nameless.009511aa0
-        my_children[9]:    _nameless.00c9ea450
-        my_children[10]:   _nameless.00c9ec000
-        my_children[11]:   _nameless._.explored.value
-        my_children[12]:   _nameless._.gps.hint
-        my_children[13]:   _nameless.064759891
-        my_children[14]:   _nameless.064759892
-        my_children[15]:   _nameless.064759893
-        my_children[16]:   _nameless.0677cdf10
-        my_children[17]:   _nameless._.route_notify
-        coords_l:          0
-        coords_r:          1440
-        coords_t:          900
-        coords_b:          0
-        area_l:            0
-        area_r:            1440
-        area_t:            900
-        area_b:            0
-        id:                0
-        layer:             0
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         null
+        blend_x_shift: 0
+        blend_y_shift: 0
+        clip_children: true
+        window_handler: _nameless.008a5be60
+        keep_aspect: center
+        user_string_data: ""
+        fitting: false
+        my_children: 18
+        my_children[0]: _nameless.008a5be62
+        my_children[1]: _nameless.008a5be63
+        my_children[2]: _nameless.008a5be64
+        my_children[3]: _nameless._.close.button
+        my_children[4]: _nameless._.info
+        my_children[5]: _nameless._.info.1
+        my_children[6]: _nameless.008a5bf00
+        my_children[7]: _nameless.009510e70
+        my_children[8]: _nameless.009511aa0
+        my_children[9]: _nameless.00c9ea450
+        my_children[10]: _nameless.00c9ec000
+        my_children[11]: _nameless._.explored.value
+        my_children[12]: _nameless._.gps.hint
+        my_children[13]: _nameless.064759891
+        my_children[14]: _nameless.064759892
+        my_children[15]: _nameless.064759893
+        my_children[16]: _nameless.0677cdf10
+        my_children[17]: _nameless._.route_notify
+        coords_l: 0
+        coords_r: 1440
+        coords_t: 900
+        coords_b: 0
+        area_l: 0
+        area_r: 1440
+        area_t: 900
+        area_b: 0
+        id: 0
+        layer: 0
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: null
     }
-    
+
     world_map_hdl : _nameless.008a5be60 {
-
-        window_link:       _nameless.008a5be61
+        window_link: _nameless.008a5be61
     }
-    
+
     ui::text_common : _nameless.008a5be62 {
-
-        value:             GGGH
-        look_template:     txt.title.center
-        text:              ""
-        coords_l:          0
-        coords_r:          1440
-        coords_t:          888
-        coords_b:          856
-        area_l:            0
-        area_r:            0
-        area_t:            3
-        area_b:            3
-        id:                10
-        layer:             1
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: GGGH
+        look_template: txt.title.center
+        text: ""
+        coords_l: 0
+        coords_r: 1440
+        coords_t: 888
+        coords_b: 856
+        area_l: 0
+        area_r: 0
+        area_t: 3
+        area_b: 3
+        id: 10
+        layer: 1
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text_common : _nameless.008a5be63 {
-
-        value:             511
-        look_template:     txt.window.dyn_bcg.nl
-        text:              ""
-        coords_l:          6
-        coords_r:          1432
-        coords_t:          896
-        coords_b:          139
-        area_l:            0
-        area_r:            0
-        area_t:            0
-        area_b:            0
-        id:                0
-        layer:             0
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: 511
+        look_template: txt.window.dyn_bcg.nl
+        text: ""
+        coords_l: 6
+        coords_r: 1432
+        coords_t: 896
+        coords_b: 139
+        area_l: 0
+        area_r: 0
+        area_t: 0
+        area_b: 0
+        id: 0
+        layer: 0
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::portal : _nameless.008a5be64 {
-
-        child_path:        "/ui/world_map_map.sii"
-        hslider_id:        -1
-        vslider_id:        -1
-        fitting:           false
-        my_children:       0
-        coords_l:          19
-        coords_r:          &44b13fff
-        coords_t:          844
-        coords_b:          151
-        area_l:            19
-        area_r:            &44b13fff
-        area_t:            844
-        area_b:            151
-        id:                100000
-        layer:             1
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        child_path: "/ui/world_map_map.sii"
+        hslider_id: -1
+        vslider_id: -1
+        fitting: false
+        my_children: 0
+        coords_l: 19
+        coords_r: &44b13fff
+        coords_t: 844
+        coords_b: 151
+        area_l: 19
+        area_r: &44b13fff
+        area_t: 844
+        area_b: 151
+        id: 100000
+        layer: 1
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::button_common : _nameless._.close.button {
-
-        value:             ""
-        value2:            ""
-        look_template:     btn.closewin
-        n_pml:             ""
-        s_pml:             ""
-        s2_pml:            ""
-        d_pml:             ""
-        p_pml:             ""
-        button_type:       normal
-        coords_l:          1389
-        coords_r:          1419
-        coords_t:          886
-        coords_b:          856
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                20
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: ""
+        value2: ""
+        look_template: btn.closewin
+        n_pml: ""
+        s_pml: ""
+        s2_pml: ""
+        d_pml: ""
+        p_pml: ""
+        button_type: normal
+        coords_l: 1389
+        coords_r: 1419
+        coords_t: 886
+        coords_b: 856
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 20
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text : _nameless._.info {
-
-        text:              "<img src=/material/ui/map/map_info.mat>"
-        coords_l:          49
-        coords_r:          81
-        coords_t:          193
-        coords_b:          161
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                320
-        layer:             6
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        text: "<img src=/material/ui/map/map_info.mat>"
+        coords_l: 49
+        coords_r: 81
+        coords_t: 193
+        coords_b: 161
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 320
+        layer: 6
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::group : _nameless._.info.1 {
-
-        fitting:           true
-        my_children:       2
-        my_children[0]:    _nameless._.legend
-        my_children[1]:    _nameless._.legend.box
-        coords_l:          20
-        coords_r:          297
-        coords_t:          732
-        coords_b:          195
-        area_l:            20
-        area_r:            297
-        area_t:            732
-        area_b:            195
-        id:                330
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        fitting: true
+        my_children: 2
+        my_children[0]: _nameless._.legend
+        my_children[1]: _nameless._.legend.box
+        coords_l: 20
+        coords_r: 297
+        coords_t: 732
+        coords_b: 195
+        area_l: 20
+        area_r: 297
+        area_t: 732
+        area_b: 195
+        id: 330
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
-    ui::text : _nameless._.legend {
 
-        text:              "<offset vshift=13 hshift=5>
+    ui::text : _nameless._.legend {
+        text: "<offset vshift=13 hshift=5>
 <img src=/material/ui/white.mat width=26 height=6 color=0xFF0C0CCF><ret>\r\n
 <offset vshift=45 hshift=5><img src=/material/ui/white.mat width=26 height=6 color=0xFF505050><ret>\r\n
 <offset vshift=77 hshift=5><img src=/material/ui/white.mat width=26 height=6 color=0xAAFFFFFF><ret>\r\n
@@ -197,26 +188,24 @@ SiiNunit {
 <offset hshift=50 vshift=104>@@unexpl_city@@<ret>\r\n
 <offset hshift=50 vshift=136>@@expl_city@@<ret>\r\n
 <offset hshift=50 vshift=168>@@your_pos@@</font>"
-
-        coords_l:          43
-        coords_r:          267
-        coords_t:          420
-        coords_b:          221
-        area_l:            0
-        area_r:            0
-        area_t:            &c39f0b10
-        area_b:            &c39f0b10
-        id:                0
-        layer:             3
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless._.info.1
+        coords_l: 43
+        coords_r: 267
+        coords_t: 420
+        coords_b: 221
+        area_l: 0
+        area_r: 0
+        area_t: &c3b3f9cc
+        area_b: &c3b3f9cc
+        id: 0
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless._.info.1
     }
-    
-    ui::text : _nameless._.legend.box {
 
-        text:              "<align hstyle=right right=-3>
+    ui::text : _nameless._.legend.box {
+        text: "<align hstyle=right right=-3>
 <img src=/material/ui/tooltip/corner.mat bottom=0 top=1>
 <img src=/material/ui/tooltip/corner.mat bottom=0 top=1 left=p32 right=p32 width=-32>
 <img src=/material/ui/tooltip/corner.mat bottom=0 top=1 left=1 right=0>
@@ -229,356 +218,337 @@ SiiNunit {
 <img src=/material/ui/tooltip/arrow_v.mat right=p31>
 <img src=/material/ui/tooltip/corner.mat bottom=1 top=0 left=p32 right=p32 width=-32>
 <img src=/material/ui/tooltip/corner.mat bottom=1 top=0 left=1 right=0></align>"
-
-        coords_l:          20
-        coords_r:          297
-        coords_t:          450
-        coords_b:          195
-        area_l:            0
-        area_r:            0
-        area_t:            &c382242c
-        area_b:            &c382242c
-        id:                0
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless._.info.1
+        coords_l: 20
+        coords_r: 297
+        coords_t: 450
+        coords_b: 195
+        area_l: 0
+        area_r: 0
+        area_t: &c38c8b18
+        area_b: &c38c8b18
+        id: 0
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless._.info.1
     }
-    
+
     ui::text : _nameless.008a5bf00 {
-
-        text:              "<img src=/material/ui/map/pan_hint.mat>"
-        coords_l:          1333
-        coords_r:          1397
-        coords_t:          267
-        coords_b:          203
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                0
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        text: "<img src=/material/ui/map/pan_hint.mat>"
+        coords_l: 1333
+        coords_r: 1397
+        coords_t: 267
+        coords_b: 203
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::button : _nameless.009510e70 {
-
-        n_pml:             "<img src=/material/ui/map/zoom_out_n.mat>"
-        s_pml:             "<img src=/material/ui/map/zoom_out_s.mat>"
-        s2_pml:            ""
-        d_pml:             "<color value=FF505050><img src=/material/ui/map/zoom_out_n.mat>"
-        p_pml:             "<img src=/material/ui/map/zoom_out_n.mat>"
-        button_type:       normal
-        coords_l:          1330
-        coords_r:          1362
-        coords_t:          193
-        coords_b:          161
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                310
-        layer:             6
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        n_pml: "<img src=/material/ui/map/zoom_out_n.mat>"
+        s_pml: "<img src=/material/ui/map/zoom_out_s.mat>"
+        s2_pml: ""
+        d_pml: "<color value=FF505050><img src=/material/ui/map/zoom_out_n.mat>"
+        p_pml: "<img src=/material/ui/map/zoom_out_n.mat>"
+        button_type: normal
+        coords_l: 1330
+        coords_r: 1362
+        coords_t: 193
+        coords_b: 161
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 310
+        layer: 6
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::button : _nameless.009511aa0 {
-
-        n_pml:             "<img src=/material/ui/map/zoom_in_n.mat>"
-        s_pml:             "<img src=/material/ui/map/zoom_in_s.mat>"
-        s2_pml:            ""
-        d_pml:             "<color value=FF505050><img src=/material/ui/map/zoom_in_n.mat>"
-        p_pml:             "<img src=/material/ui/map/zoom_in_n.mat>"
-        button_type:       normal
-        coords_l:          1368
-        coords_r:          1400
-        coords_t:          193
-        coords_b:          161
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                300
-        layer:             6
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        n_pml: "<img src=/material/ui/map/zoom_in_n.mat>"
+        s_pml: "<img src=/material/ui/map/zoom_in_s.mat>"
+        s2_pml: ""
+        d_pml: "<color value=FF505050><img src=/material/ui/map/zoom_in_n.mat>"
+        p_pml: "<img src=/material/ui/map/zoom_in_n.mat>"
+        button_type: normal
+        coords_l: 1368
+        coords_r: 1400
+        coords_t: 193
+        coords_b: 161
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 300
+        layer: 6
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
-    ui::text : _nameless.00c9ea450 {
 
-        text:              "<img src=/material/ui/map/explored_bcg.mat right=p8>
+    ui::text : _nameless.00c9ea450 {
+        text: "<img src=/material/ui/map/explored_bcg.mat right=p8>
 <img src=/material/ui/map/explored_bcg.mat left=p7 right=p8 width=-70>
 <img src=/material/ui/map/explored_bcg.mat left=p8 right=p78>"
-
-        coords_l:          29
-        coords_r:          199
-        coords_t:          834
-        coords_b:          795
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                0
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        coords_l: 29
+        coords_r: 199
+        coords_t: 834
+        coords_b: 795
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text_common : _nameless.00c9ec000 {
-
-        value:             "@@clr_help@@|@@explored@@"
-        look_template:     txt.normal.color.left
-        text:              ""
-        coords_l:          38
-        coords_r:          132
-        coords_t:          834
-        coords_b:          798
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                0
-        layer:             3
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: "@@clr_help@@|@@explored@@"
+        look_template: txt.normal.color.left
+        text: ""
+        coords_l: 38
+        coords_r: 132
+        coords_t: 834
+        coords_b: 798
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text_common : _nameless._.explored.value {
-
-        value:             "199,99%"
-        look_template:     txt.normal.center
-        text:              ""
-        coords_l:          134
-        coords_r:          195
-        coords_t:          834
-        coords_b:          798
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                340
-        layer:             3
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: "199,99%"
+        look_template: txt.normal.center
+        text: ""
+        coords_l: 134
+        coords_r: 195
+        coords_t: 834
+        coords_b: 798
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 340
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text : _nameless._.gps.hint {
-
-        text:              "<img src=/material/ui/map/gps_hint.mat>"
-        coords_l:          1333
-        coords_r:          1397
-        coords_t:          337
-        coords_b:          273
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                350
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        text: "<img src=/material/ui/map/gps_hint.mat>"
+        coords_l: 1333
+        coords_r: 1397
+        coords_t: 337
+        coords_b: 273
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 350
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text_common : _nameless.064759891 {
-
-        value:             "@@trip_len@@<br>@@trip_time@@"
-        look_template:     txt.small.left
-        text:              ""
-        coords_l:          1184
-        coords_r:          1398
-        coords_t:          837
-        coords_b:          784
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                410
-        layer:             4
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: "@@trip_len@@<br>@@trip_time@@"
+        look_template: txt.small.left
+        text: ""
+        coords_l: 1184
+        coords_r: 1398
+        coords_t: 837
+        coords_b: 784
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 410
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::text : _nameless.064759892 {
-
-        text:              "<color value=80000000>
+        text: "<color value=80000000>
 <img src=/material/ui/white.mat width=1 height=-1>
 <img src=/material/ui/white.mat width=-1 yscale=stretch>
 <img src=/material/ui/white.mat width=1 height=-1>"
-
-        coords_l:          1172
-        coords_r:          1410
-        coords_t:          837
-        coords_b:          784
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                400
-        layer:             3
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 837
+        coords_b: 784
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 400
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::button_common : _nameless.064759893 {
-
-        value:             "@@reset_gps_pins@@"
-        value2:            ""
-        look_template:     btn.normal
-        n_pml:             ""
-        s_pml:             ""
-        s2_pml:            ""
-        d_pml:             ""
-        p_pml:             ""
-        button_type:       normal
-        coords_l:          1172
-        coords_r:          1410
-        coords_t:          784
-        coords_b:          752
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                360
-        layer:             4
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: "@@reset_gps_pins@@"
+        value2: ""
+        look_template: btn.normal
+        n_pml: ""
+        s_pml: ""
+        s2_pml: ""
+        d_pml: ""
+        p_pml: ""
+        button_type: normal
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 784
+        coords_b: 752
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 360
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
+
     ui::group : _nameless.0677cdf10 {
-
-        fitting:           false
-        my_children:       3
-        my_children[0]:    _nameless.0677cdad0
-        my_children[1]:    _nameless.0677cd2c1
-        my_children[2]:    _nameless.0677cd110
-        coords_l:          1172
-        coords_r:          1410
-        coords_t:          753
-        coords_b:          721
-        area_l:            1172
-        area_r:            1410
-        area_t:            753
-        area_b:            721
-        id:                370
-        layer:             6
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        fitting: false
+        my_children: 3
+        my_children[0]: _nameless.0677cdad0
+        my_children[1]: _nameless.0677cd2c1
+        my_children[2]: _nameless.0677cd110
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 753
+        coords_b: 721
+        area_l: 1172
+        area_r: 1410
+        area_t: 753
+        area_b: 721
+        id: 370
+        layer: 6
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
-    
-    ui::text : _nameless.0677cdad0 {
 
-        text:              "<color value=80000000>
+    ui::text : _nameless.0677cdad0 {
+        text: "<color value=80000000>
 <img src=/material/ui/white.mat width=1 height=-1>
 <img src=/material/ui/white.mat width=-1 yscale=stretch>
 <img src=/material/ui/white.mat width=1 height=-1>"
-
-        coords_l:          1172
-        coords_r:          1410
-        coords_t:          752
-        coords_b:          720
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                0
-        layer:             3
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.0677cdf10
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 752
+        coords_b: 720
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10
     }
 
     ui::text_common : _nameless.0677cd2c1 {
-
-        value:             "@@append_new_pins@@"
-        look_template:     txt.small.left
-        text:              ""
-        coords_l:          1213
-        coords_r:          1410
-        coords_t:          752
-        coords_b:          720
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                0
-        layer:             4
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.0677cdf10
+        value: "@@append_new_pins@@"
+        look_template: txt.small.left
+        text: ""
+        coords_l: 1213
+        coords_r: 1410
+        coords_t: 752
+        coords_b: 720
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10
     }
 
     ui::button_common : _nameless.0677cd110 {
-
-        value:             ""
-        value2:            ""
-        look_template:     btn.checkbox
-        n_pml:             ""
-        s_pml:             ""
-        s2_pml:            ""
-        d_pml:             ""
-        p_pml:             ""
-        button_type:       check
-        coords_l:          1172
-        coords_r:          1204
-        coords_t:          752
-        coords_b:          720
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                380
-        layer:             4
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.0677cdf10
+        value: ""
+        value2: ""
+        look_template: btn.checkbox
+        n_pml: ""
+        s_pml: ""
+        s2_pml: ""
+        d_pml: ""
+        p_pml: ""
+        button_type: check
+        coords_l: 1172
+        coords_r: 1204
+        coords_t: 752
+        coords_b: 720
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 380
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10
     }
 
     ui::text_common : _nameless._.route_notify {
-
-        value:             ""
-        look_template:     null
-        text:              ""
-        coords_l:          488
-        coords_r:          948
-        coords_t:          220
-        coords_b:          166
-        area_l:            1
-        area_r:            0
-        area_t:            0
-        area_b:            1
-        id:                420
-        layer:             2
-        tab:               -1
-        pointer:           -1
-        apparent_depth:    0
-        my_parent:         _nameless.008a5be61
+        value: ""
+        look_template: null
+        text: ""
+        coords_l: 488
+        coords_r: 948
+        coords_t: 220
+        coords_b: 166
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 420
+        layer: 2
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
     }
 }

@@ -4,7 +4,7 @@ SiiNunit {
 			
 			display_name:    "Discovery Map Helper"
 			author:          "Stanislav Kuzmich [Art.Stea1th]"
-			package_version: "1.6.1712"
+			package_version: "1.6.1811"
 			
 			category[]: "other"
 			category[]: "ui"
