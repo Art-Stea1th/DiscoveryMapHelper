@@ -95,13 +95,13 @@ SiiNunit {
         camera_limits_max[6]:                (54000.0, 70000.0)
         camera_limits_max[7]:                (38000.0, 60000.0)
 
-        map_items_flags[0]:                  0x1C00
-        map_items_flags[1]:                  0x1C00
+        map_items_flags[0]:                  0x1C20
+        map_items_flags[1]:                  0x1C20
         map_items_flags[2]:                  0x1402
         map_items_flags[3]:                  0x1F7F
-        map_items_flags[4]:                  0x1C02
-        map_items_flags[5]:                  0x1C00
-        map_items_flags[6]:                  0x1C00
+        map_items_flags[4]:                  0x1C22
+        map_items_flags[5]:                  0x1C20
+        map_items_flags[6]:                  0x1C20
         map_items_flags[7]:                  0x1402
 
         map_3d_camera_pitch:                 40.0                   // camera pitch in 3d map
