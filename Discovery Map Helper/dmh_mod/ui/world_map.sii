@@ -8,7 +8,7 @@ SiiNunit {
         keep_aspect: center
         user_string_data: ""
         fitting: false
-        my_children: 18
+        my_children: 19
         my_children[0]: _nameless.008a5be62
         my_children[1]: _nameless.008a5be63
         my_children[2]: _nameless.008a5be64
@@ -27,6 +27,7 @@ SiiNunit {
         my_children[15]: _nameless.064759893
         my_children[16]: _nameless.0677cdf10
         my_children[17]: _nameless._.route_notify
+        my_children[18]: _nameless.0677cdf10.0000
         coords_l: 0
         coords_r: 1440
         coords_t: 900
@@ -551,4 +552,90 @@ SiiNunit {
         apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
-}
+
+    ui::group : _nameless.0677cdf10.0000 {
+        fitting: false
+        my_children: 3
+        my_children[0]: _nameless.0677cdad0.0000
+        my_children[1]: _nameless.0677cd2c1.0000
+        my_children[2]: _nameless.0677cd110.0000
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 719
+        coords_b: 687
+        area_l: 1172
+        area_r: 1410
+        area_t: 719
+        area_b: 687
+        id: 430
+        layer: 6
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.008a5be61
+    }
+
+    ui::text : _nameless.0677cdad0.0000 {
+        text: "<color value=C0000000><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+        coords_l: 1172
+        coords_r: 1410
+        coords_t: 718
+        coords_b: 686
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 3
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10.0000
+    }
+
+    ui::text_common : _nameless.0677cd2c1.0000 {
+        value: "@@append_new_avoid_pins@@"
+        look_template: txt.small.left
+        text: ""
+        coords_l: 1213
+        coords_r: 1410
+        coords_t: 718
+        coords_b: 686
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10.0000
+    }
+
+    ui::button_common : _nameless.0677cd110.0000 {
+        value: ""
+        value2: ""
+        look_template: btn.checkbox
+        n_pml: ""
+        s_pml: ""
+        s2_pml: ""
+        d_pml: ""
+        p_pml: ""
+        button_type: check
+        coords_l: 1172
+        coords_r: 1204
+        coords_t: 718
+        coords_b: 686
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 440
+        layer: 4
+        tab: -1
+        pointer: -1
+        apparent_depth: 0
+        my_parent: _nameless.0677cdf10.0000
+    }
+} 

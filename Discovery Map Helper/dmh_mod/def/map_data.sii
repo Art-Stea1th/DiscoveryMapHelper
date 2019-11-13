@@ -8,6 +8,8 @@ SiiNunit {
         job_road_discovered_color:           0xFF353535  // Job market map discovered route
         world_road_color:                    0xFF0C0CCF  // Main map undiscovered route
         world_road_discovered_color:         0xFF505050  // Main map discovered route
+        fleet_manager_road_color:            0xFF0C0CCF  // Fleet manager map undiscovered route
+        fleet_manager_road_discovered_color: 0xFF505050  // Fleet manager map discovered route
 
         prefab_color:                        0xFF0C42DF  // Undiscovered prefab driveable areas
         prefab_obstacle_color:               0xFF07077C  // Undiscovered prefab buildings
@@ -77,7 +79,7 @@ SiiNunit {
         company_icon_size[6]:                (16.0, 4.0)
         company_icon_size[7]:                (16.0, 4.0)
 
-        camera_limits_min[0]:                (-1000000.0, -1000000.0)
+        camera_limits_min[0]:                (-1000000.0, -1000000.0)   # left, up
         camera_limits_min[1]:                (-1000000.0, -1000000.0)
         camera_limits_min[2]:                (-1000000.0, -1000000.0)
         camera_limits_min[3]:                (-1000000.0, -1000000.0)
@@ -86,14 +88,14 @@ SiiNunit {
         camera_limits_min[6]:                (-46000.0, -56000.0)
         camera_limits_min[7]:                (-30000.0, -45000.0)
 
-        camera_limits_max[0]:                (1000000.0, 1000000.0)
+        camera_limits_max[0]:                (1000000.0, 1000000.0)     # right, down
         camera_limits_max[1]:                (1000000.0, 1000000.0)
         camera_limits_max[2]:                (1000000.0, 1000000.0)
         camera_limits_max[3]:                (1000000.0, 1000000.0)
-        camera_limits_max[4]:                (64000.0, 77000.0)
-        camera_limits_max[5]:                (62000.0, 76000.0)
-        camera_limits_max[6]:                (54000.0, 70000.0)
-        camera_limits_max[7]:                (38000.0, 60000.0)
+        camera_limits_max[4]:                (77000.0, 77000.0)
+        camera_limits_max[5]:                (75000.0, 76000.0)
+        camera_limits_max[6]:                (67000.0, 70000.0)
+        camera_limits_max[7]:                (51000.0, 60000.0)
 
         map_items_flags[0]:                  0x1C00
         map_items_flags[1]:                  0x1C00
@@ -110,7 +112,7 @@ SiiNunit {
         ui_map_size:                         (5308.2, 5200.0)       // map texture in real km
 
         ui_map_camera_min:                   (-30000.0, -45000.0)
-        ui_map_camera_max:                   (38000.0, 60000.0)
+        ui_map_camera_max:                   (51000.0, 60000.0)
 
         ui_map_always_draw_city: true
 
