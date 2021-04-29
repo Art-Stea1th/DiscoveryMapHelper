@@ -1,32 +1,34 @@
 SiiNunit {
 
-    ui_blend_window : _nameless.008a5be61 {
-        blend_x_shift: 0
-        blend_y_shift: 0
-        clip_children: true
-        window_handler: _nameless.008a5be60
-        keep_aspect: center
-        user_string_data: ""
-        fitting: false
-        my_children: 18
-        my_children[0]: _nameless.008a5be62
-        my_children[1]: _nameless.008a5be63
-        my_children[2]: _nameless.008a5be64
-        my_children[3]: _nameless._.close.button
-        my_children[4]: _nameless._.info
-        my_children[5]: _nameless._.info.1
-        my_children[6]: _nameless.008a5bf00
-        my_children[7]: _nameless.009510e70
-        my_children[8]: _nameless.009511aa0
-        my_children[9]: _nameless.00c9ea450
-        my_children[10]: _nameless.00c9ec000
-        my_children[11]: _nameless._.explored.value
-        my_children[12]: _nameless._.gps.hint
-        my_children[13]: _nameless.064759891
-        my_children[14]: _nameless.064759892
-        my_children[15]: _nameless.064759893
-        my_children[16]: _nameless.0677cdf10
-        my_children[17]: _nameless._.route_notify
+ui_blend_window : _nameless.008a5be61 {
+ blend_x_shift: 0
+ blend_y_shift: 0
+ window_handler: _nameless.008a5be60
+ clip_children: true
+ keep_aspect: center
+ user_string_data: ""
+ fitting: false
+ my_children: 20
+ my_children[0]: _nameless.008a5be62
+ my_children[1]: _nameless.008a5be63
+ my_children[2]: _nameless.008a5be64
+ my_children[3]: _nameless._.close.button
+ my_children[4]: _nameless._.info
+ my_children[5]: _nameless._.info.1
+ my_children[6]: _nameless.008a5bf00
+ my_children[7]: _nameless.009510e70
+ my_children[8]: _nameless.009511aa0
+ my_children[9]: _nameless.00c9ea450
+ my_children[10]: _nameless.00c9ec000
+ my_children[11]: _nameless._.explored.value
+ my_children[12]: _nameless._.gps.hint
+ my_children[13]: _nameless.064759891
+ my_children[14]: _nameless.064759892
+ my_children[15]: _nameless.064759893
+ my_children[16]: _nameless.0677cdf10
+ my_children[17]: _nameless._.route_notify
+ my_children[18]: _nameless.0677cdf10.0000
+ my_children[19]: _nameless.43e.86b0.0000
         coords_l: 0
         coords_r: 1440
         coords_t: 900
@@ -39,7 +41,6 @@ SiiNunit {
         layer: 0
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: null
     }
 
@@ -63,7 +64,6 @@ SiiNunit {
         layer: 1
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -83,7 +83,6 @@ SiiNunit {
         layer: 0
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -105,7 +104,6 @@ SiiNunit {
         layer: 1
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -131,7 +129,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -149,7 +146,6 @@ SiiNunit {
         layer: 6
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -170,7 +166,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -230,7 +225,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless._.info.1
     }
 
@@ -248,7 +242,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -271,7 +264,6 @@ SiiNunit {
         layer: 6
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -294,7 +286,6 @@ SiiNunit {
         layer: 6
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -314,7 +305,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -334,7 +324,6 @@ SiiNunit {
         layer: 3
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -354,7 +343,6 @@ SiiNunit {
         layer: 3
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -372,7 +360,6 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -392,7 +379,6 @@ SiiNunit {
         layer: 4
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -413,7 +399,6 @@ SiiNunit {
         layer: 3
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -439,7 +424,6 @@ SiiNunit {
         layer: 4
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -461,7 +445,6 @@ SiiNunit {
         layer: 6
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
 
@@ -482,7 +465,6 @@ SiiNunit {
         layer: 3
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.0677cdf10
     }
 
@@ -502,7 +484,6 @@ SiiNunit {
         layer: 4
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.0677cdf10
     }
 
@@ -528,7 +509,6 @@ SiiNunit {
         layer: 4
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.0677cdf10
     }
 
@@ -548,7 +528,106 @@ SiiNunit {
         layer: 2
         tab: -1
         pointer: -1
-        apparent_depth: 0
         my_parent: _nameless.008a5be61
     }
+
+    ui::group : _nameless.0677cdf10.0000 {
+        fitting: false
+        my_children: 3
+        my_children[0]: _nameless.0677cdad0.0000
+        my_children[1]: _nameless.0677cd2c1.0000
+        my_children[2]: _nameless.0677cd110.0000
+        coords_l: 1135
+        coords_r: 1410
+        coords_t: 692
+        coords_b: 660
+        area_l: 1135
+        area_r: 1410
+        area_t: 692
+        area_b: 660
+        id: 430
+        layer: 6
+        tab: -1
+        pointer: -1
+        my_parent: _nameless.008a5be61
+    }
+    
+    ui::text : _nameless.0677cdad0.0000 {
+        text: "<color value=C0000000><img src=/material/ui/white.mat width=1 height=-1><img src=/material/ui/white.mat width=-1 yscale=stretch><img src=/material/ui/white.mat width=1 height=-1>"
+        coords_l: 1135
+        coords_r: 1410
+        coords_t: 691
+        coords_b: 659
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 3
+        tab: -1
+        pointer: -1
+        my_parent: _nameless.0677cdf10.0000
+    }
+    
+    ui::text_common : _nameless.0677cd2c1.0000 {
+        value: "@@append_new_avoid_pins@@"
+        look_template: txt.small.left
+        text: ""
+        coords_l: 1174
+        coords_r: 1410
+        coords_t: 691
+        coords_b: 659
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 0
+        layer: 4
+        tab: -1
+        pointer: -1
+        my_parent: _nameless.0677cdf10.0000
+    }
+    
+    ui::button_common : _nameless.0677cd110.0000 {
+        value: ""
+        value2: ""
+        look_template: btn.checkbox
+        n_pml: ""
+        s_pml: ""
+        s2_pml: ""
+        d_pml: ""
+        p_pml: ""
+        button_type: check
+        coords_l: 1135
+        coords_r: 1167
+        coords_t: 691
+        coords_b: 659
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 440
+        layer: 4
+        tab: -1
+        pointer: -1
+        my_parent: _nameless.0677cdf10.0000
+    }
+    
+    ui::text : _nameless.43e.86b0.0000 {
+        text: "<img src=/video/busy.mat right=p32 bottom=p32 ka=center>"
+        coords_l: 701
+        coords_r: 736
+        coords_t: 514
+        coords_b: 480
+        area_l: 1
+        area_r: 0
+        area_t: 0
+        area_b: 1
+        id: 421
+        layer: 10
+        tab: -1
+        pointer: -1
+        my_parent: _nameless.008a5be61
+    }
+
 }
